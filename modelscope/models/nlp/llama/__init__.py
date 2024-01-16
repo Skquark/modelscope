@@ -1,7 +1,8 @@
 # Copyright (c) Alibaba, Inc. and its affiliates.
 from typing import TYPE_CHECKING
 
-from transformers.models.llama import (LlamaConfig, LlamaTokenizer,
+from transformers import LlamaTokenizer
+from transformers.models.llama import (LlamaConfig,
                                        LlamaTokenizerFast)
 
 from modelscope.utils.import_utils import LazyImportModule
